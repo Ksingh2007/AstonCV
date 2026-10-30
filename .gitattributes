@@ -1,0 +1,9 @@
+# Force GitHub to detect and count these web languages
+*.js linguist-detectable=true
+*.css linguist-detectable=true
+*.html linguist-detectable=true
+*.sql linguist-detectable=true
+
+# To make sure your HTML/CSS files aren't treated as generated assets
+*.html linguist-documentation=false
+*.css linguist-documentation=false
